@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url("forest.jpg");
+  background-size: cover;
+}
+
+#game-container {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+img {
+  max-width: 100%;
+  cursor: pointer;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#upgrades-section {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+#upgrades-list {
+  max-height: 200px;
+  overflow-y: auto;
+  text-align: left;
+}
+/* ... */
+button.upgrade-button {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 14px;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+button.upgrade-button:hover {
+  background-color: #ddd;
+}
+/* ... */
+
+/* ... */
+#game-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+#sapling-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+#upgrades-section {
+  flex: 1;
+  border-top: none;
+  padding-top: 0;
+}
+/* ... */

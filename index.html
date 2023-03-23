@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tree of Life</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="game-container">
+    <div id="game-content">
+      <div id="sapling-section">
+        <h1 id="sapling-age">Age: 0 years, 0 days</h1>
+        <h2 id="resin-counter">Resin: 0</h2>
+        <img id="sapling" src="sapling.jpg" alt="sapling">
+      </div>
+      <div id="upgrades-section">
+        <h3>Upgrades</h3>
+        <div id="upgrades-list">
+          <div class="upgrade" id="photosynthesis-upgrade">
+            <button class="upgrade-button" id="photosynthesis-button" title="Increases tree age and resin automatically.">Photosynthesis (Level: <span id="photosynthesis-level">0</span> | Cost: <span id="photosynthesis-cost">20</span> Resin)</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button id="reset-button">Reset</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
